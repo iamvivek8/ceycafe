@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/glove-cufonfonts/Glove.ttf" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <!-- <link href="https://fonts.cdnfonts.com/css/glove" rel="stylesheet"> -->
+    <link href="https://fonts.cdnfonts.com/css/glove" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.18.1/dist/css/uikit.min.css"
+    />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.18.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.18.1/dist/js/uikit-icons.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <span>ceyCafe</span>
+        <ul>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">menu</a></li>
+          <li><a href="#">gallery</a></li>
+          <li><a href="#">reviews</a></li>
+        </ul>
+        <div class="nav-cart">
+          <img src="./images/search.png" alt="" />
+          <img src="./images/User.png" alt="" />
+          <img src="./images/ShoppingCart.png" alt="" />
+        </div>
+      </nav>
+      <!-- 
+      <div class="head-hero">
+        <h1>welcome to ceycafe</h1>
+        <p>embrance the pure essence of ceylon through every sip</p>
+        <button>view menu</button>
+      </div> -->
+      <!-- <div class="hero-main">
+        <h1>welcome  to ceycafe</h1>
+        <p>embrance the pure essence of   ceylon through every sip</p>
+        <button>view menu</button>
+      </div> -->
+      <div class="header-slider">
+       
+        <div
+          class="uk-position-relative uk-visible-toggle uk-light"
+          tabindex="-1"
+          uk-slider
+        >
+          <ul class="uk-slider-items uk-grid">
+            <li class="uk-">
+              <div class="uk-panel">
+                <img src="images/photo.jpg" width="1800" height="1200" alt="" />
+                <div class="uk-position-center uk-text-left">
+                  <div class="head-hero">
+                    <h1>welcome to ceycafe</h1>
+                    <p>embrance the pure essence of ceylon through every sip</p>
+                    <button>view menu</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="uk-width">
+              <div class="uk-panel">
+                <img src="#" width="1800" height="1200" alt="" />
+                <div class="uk-position-center uk-text-center">
+                  <div class="head-hero">
+
+                    <h1>It’s More Than Just Coffee.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="uk-width">
+              <div class="uk-panel">
+                <img src="#" width="1800" height="1200" alt="" />
+                <div class="uk-position-center uk-text-center">
+                  <div class="head-hero">
+
+                    <h1>It’s a Brew-Tiful Day to Have Coffee.</h1>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="uk-width">
+              <div class="uk-panel">
+                <img
+                  src="images/photo2.jpg"
+                  width="1800"
+                  height="1200"
+                  alt=""
+                />
+                <div class="uk-position-center uk-text-center">
+                  <div class="head-hero">
+                    <h1>Give up The Snooze Button for The Brews Button.</h1>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <a
+            class="uk-position-center-left uk-position-small uk-hidden-hover"
+            href
+            uk-slidenav-previous
+            uk-slider-item="previous"
+          ></a>
+          <a
+            class="uk-position-center-right uk-position-small uk-hidden-hover"
+            href
+            uk-slidenav-next
+            uk-slider-item="next"
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <div class="about">
+      <div class="about-container">
+        <h3>about us</h3>
+        <div class="about-para">
+          <div class="about-img">
+            <img class="aboutimg1" src="./images/about1.png" alt="" />
+            <img class="aboutimg2" src="./images/about2.png" alt="" />
+            <div class="aboutimpty1"></div>
+            <div class="aboutimpty2"></div>
+          </div>
+          <div class="about-sub-para">
+            <p>
+              at ceycafe, we're passionate about sharing the exeptional flavors
+              of ceylon coffee with the world. our journey begins in the lush
+              hills of sri lanka, where we source the finesr coffee bans. with
+              dedication and expertise, we craft unique blends that inviye you
+              to savor the essence of ceylon in every cup. welcome to a coffee
+              experience like no other.
+            </p>
+            <button>know more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu">
+      <div class="menu-container">
+        <h3>popular menus</h3>
+        <div class="menu-cards-container">
+          <div class="menu-card">
+            <div class="menu-sub">
+              <img src="./images/menu1.png" alt="" />
+              <div class="menu-para">
+                <h4>ceylon coffee</h4>
+                <p>
+                  a specialty coffee from sri lanka,known for its unique flavor
+                  profile and aroma
+                </p>
+                <h5>$7.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-sub">
+              <img src="./images/menu2.png" alt="" />
+              <div class="menu-para">
+                <h4>Espresso</h4>
+                <p>
+                  A concentrated shot of strong, bold coffee, the foundation of
+                  all coffee drinks
+                </p>
+                <h5>$3.50</h5>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-sub">
+              <img src="./images/menu3.png" alt="" />
+              <div class="menu-para">
+                <h4>Cappuccino</h4>
+                <p>
+                  A harmonious blend of espresso, steamed milk, and frothy milk
+                  foam
+                </p>
+                <h5>$4.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-sub">
+              <img src="./images/menu4.png" alt="" />
+              <div class="menu-para">
+                <h4>Chai Latte</h4>
+                <p>
+                  A spiced tea-based latte made with steamed milk and aromatic
+                  chai spices
+                </p>
+                <h5>$4.50</h5>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-sub">
+              <img src="./images/menu5.png" alt="" />
+              <div class="menu-para">
+                <h4>Latte</h4>
+                <p>
+                  A smooth and creamy coffee made with espresso and a generous
+                  amount of steamed milk
+                </p>
+                <h5>$4.50</h5>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-sub">
+              <img src="./images/menu6.png" alt="" />
+              <div class="menu-para">
+                <h4>Iced Coffee</h4>
+                <p>
+                  Chilled coffee served over ice, often sweetened and with milk
+                </p>
+                <h5>$5.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-sub">
+              <img src="./images/menu7.png" alt="" />
+              <div class="menu-para">
+                <h4>Herbal Tea</h4>
+                <p>
+                  Caffeine-free tea made from a variety of herbs and spices,
+                  ideal for relaxation
+                </p>
+                <h5>$7.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-sub">
+              <img src="./images/menu8.png" alt="" />
+              <div class="menu-para">
+                <h4>Mocha</h4>
+                <p>
+                  A delightful combination of espresso, chocolate, and steamed
+                  milk, often topped with whipped cream
+                </p>
+                <h5>$6.00</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="adbanner">
+      <div class="banner-container">
+        <div class="banner-sub-container">
+          <h3>fall flavors have arrived!</h3>
+          <p>
+            indulge in warmth of autumn with our pumpkin spice lattes and
+            invigoratiung cinnamon mochas.a seasonal delight for your taste
+            buds.
+          </p>
+          <button>view menu</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="review">
+      <h3>review</h3>
+      <div class="review-container">
+        <swiper-container class="mySwiper" navigation="true">
+          <swiper-slide
+            ><div class="review-card">
+              <div class="review-img">
+                <img src="./images/review1.png" alt="" />
+                <h5>sophia m</h5>
+              </div>
+              <p>
+                I'm not even a coffee person, but Ceycafe's hot chocolate is
+                heavenly. It's the perfect place to unwind with a good book or
+                catch up with friends.
+              </p>
+            </div></swiper-slide
+          >
+          <swiper-slide
+            ><div class="review-card">
+              <div class="review-img">
+                <img src="./images/review2.png" alt="" />
+                <h5>mark s.</h5>
+              </div>
+              <p>
+                I'm not even a coffee person, but Ceycafe's hot chocolate is
+                heavenly. It's the perfect place to unwind with a good book or
+                catch up with friends.
+              </p>
+            </div></swiper-slide
+          >
+          <swiper-slide
+            ><div class="review-card">
+              <div class="review-img">
+                <img src="./images/review3.png" alt="" />
+                <h5>emil p.y</h5>
+              </div>
+              <p>
+                I'm not even a coffee person, but Ceycafe's hot chocolate is
+                heavenly. It's the perfect place to unwind with a good book or
+                catch up with friends.
+              </p>
+            </div></swiper-slide
+          >
+        </swiper-container>
+      </div>
+    </div>
+
+    <div class="map">
+      <div class="map-container">
+        <h3>visit us</h3>
+        <div class="map-addre">
+          <div class="map-address">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.7156469017955!2d50.208205309352486!3d26.303316676919742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49e9e60d05dc13%3A0xf6267872a0a59a42!2s%C3%87ay%20Kirmizi!5e0!3m2!1sen!2sin!4v1707472610878!5m2!1sen!2sin"
+             
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          
+          <div class="map-para">
+            <div class="map-loc">
+              <img src="./images/loction.png" alt="" />
+              <div class="map-loc-img">
+                <span>loction</span>
+                <p>
+                  12/3 ceylone hotels,middeniya rd hambantota, hambantota,82244
+                </p>
+              </div>
+            </div>
+            <div class="map-time">
+              <img src="./images/clock.png" alt="" />
+              <div class="map-time-img">
+                <span>open hours</span>
+                <p>monday - saturday:9am - 10am</p>
+              </div>
+            </div>
+            <div class="map-mobile">
+              <img src="./images/phone.png" alt="" />
+              <div class="map-mobile-img">
+                <p>+ 94 123456789</p>
+                <p>+ 94 987654321</p>
+              </div>
+            </div>
+            <div class="map-mail">
+              <img src="./images/mail.png" alt="" />
+              <p>ceycafe@info.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-top-head">
+            <span>ceycafe</span>
+            <div class="footer-icon">
+              <img src="./images/facbook.png" alt="" />
+              <img src="./images/twitter.png" alt="" />
+              <img src="./images/instagram.png" alt="" />
+              <img src="./images/linkedin.png" alt="" />
+            </div>
+          </div>
+          <div class="footer-top-list">
+            <ul>
+              <li><a href="#">menus</a></li>
+              <li><a href="#">about</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">review</a></li>
+              <li><a href="#">terms of use </a></li>
+            </ul>
+            <ul>
+              <li><a href="#">gallery</a></li>
+              <li><a href="#">privacy policy </a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="footer-bottom">
+          <p>&copy;2023 ceycafe coffee company all rights reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  </body>
+</html>
